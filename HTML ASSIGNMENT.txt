@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple registration form</title>
+     <style>
+     </style>
+      </head>
+       <body>
+         <div class="main-block">
+           <h1 >EXAMPLE</h1>
+	   <i>FIRST HTML </i>
+            <form>
+              <hr>
+                 <a href="https://www.kotak.com/en.html">
+                 <img src="pic.jpg" alt="Trulli" width="500" height="333">
+		</a>
+	        <br/>
+                <br/>
+               <a href="https://www.kotak.com/en.html">CLICK HERE TO APPLY FOR JOB</a>
+		<br/>
+		<br/>
+	        <br/>
+              <form>
+                  <input type="text" name="name" id="name" placeholder="Email"/>
+                    <input type="text" name="name" id="name" placeholder="Name"/>
+                     <input type="password" name="name" id="name" placeholder="Password/>
+                         <div class="gender">
+                           <input type="radio" value="none" id="male" name="gender"/>
+                           <label for="male" class="radio">Male</label>
+                           <input type="radio" value="none" id="female" name="gender" />
+                             <label for="female" class="radio">Female</label>
+                           </div>
+                          <div class="btn-block">
+   			<label for="cars">Choose a Post:</label>
+  			<select name="post" id="des">
+    			<option value="hr">HR</option>
+   		       <option value="po">Product Owner</option>
+ 			 </select>
+                      <p style="font-family:verdana">This is HTML with font family</p>
+                       <br/>
+                  <button type="submit" >Submit</button>
+		<table border="1">
+ 		 <tr>
+  		  <th>S.NO</th>
+  		  <th>Post</th>
+ 		 </tr>
+		  <tr>
+	         <td>1</td>
+    		<td>Technical Person</td>
+  		</tr>
+		  <tr>
+  		  <td>2</td>
+    		<td>SECURITY</td>
+  		</tr>
+		</table>
+               </div>
+         </form>
+<h5>LIST </h5>
+           <ul>
+  <li>HR</li>
+  <li>TECH</li>
+  <li>PRODUCT OWNER</li>
+</ul> 
+     <ol>
+  <li>HR</li>
+  <li>TECH</li>
+  <li>PRODUCT OWNER</li>
+</ol> 
+     </div>
+</body>
+</html>
